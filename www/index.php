@@ -12,7 +12,7 @@ if (@!include __DIR__ . '/data/vendor/autoload.php') {
 require __DIR__ . '/data/TemplateRouter.php';
 
 // Configure application
-$configurator = new Nette\Configurator;
+$configurator = new Nette\Bootstrap\Configurator;
 
 // Enable Tracy for error visualisation & logging
 $configurator->enableTracy(__DIR__ . '/data/log');

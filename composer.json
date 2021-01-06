@@ -14,13 +14,13 @@
 		}
 	],
 	"require": {
-		"php": ">=7.1",
-		"nette/application": "^3.0",
-		"nette/bootstrap": "^3.0",
-		"nette/database": "^3.0",
-		"nette/robot-loader": "^3.0",
-		"latte/latte": "^2.5",
-		"tracy/tracy": "^2.6"
+		"php": ">=7.2",
+		"nette/application": "^3.1",
+		"nette/bootstrap": "^3.1",
+		"nette/database": "^3.1",
+		"nette/robot-loader": "^3.4",
+		"latte/latte": "^2.10",
+		"tracy/tracy": "^2.8"
 	},
 	"minimum-stability": "stable",
 	"config": {
