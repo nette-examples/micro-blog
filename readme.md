@@ -14,15 +14,21 @@ performance and is definitely one of the safest PHP frameworks.
 Nette Framework speaks your language and helps you to easily build better websites.
 
 
-Installing
-----------
+Installation
+------------
 
-The best way to install Nette Framework is to download latest package
-from https://nette.org/download or using [Composer](https://doc.nette.org/composer):
+```shell
+git clone https://github.com/nette-examples/micro-blog
+cd micro-blog
+composer install
+```
 
-	curl -s http://getcomposer.org/installer | php
-	php composer.phar update
+The simplest way to get started is to start the built-in PHP server in the root directory of your project:
 
-Then navigate your browser to the `www` directory. PHP 5.4 allows
-you run `php -S localhost:8888 -t www` to start the webserver and
-then visit `http://localhost:8888` in your browser.
+```shell
+php -S localhost:8000 -t www
+```
+
+Then visit `http://localhost:8000` in your browser to see the welcome page.
+
+It requires PHP version 7.2 or newer.
